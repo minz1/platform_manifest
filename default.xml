@@ -8,11 +8,11 @@
 
   <remote  name="cm"
            fetch="https://github.com/LineageOS"
-           revision="refs/heads/cm-14.1" />
+           revision="cm-14.1" />
 	
   <remote  name="aosp-caf"
            fetch="https://github.com/Citrus-CAF"
-           revision="refs/heads/n7.1" />
+           revision="n7.1" />
 
 <!-- BEGIN AOSP-CAF -->
   <project name="platform_manifest" path="manifest" remote="aosp-caf" />
